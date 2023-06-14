@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form id="form">
+        <label for="name">NOME:</label>
+        <input type="text" id="i_name" required>
+
+        <label for="email">E-MAIL:</label>
+        <input type="text" id="i_email" required>
+
+        <label for="password">SENHA:</label>
+        <input type="password" id="i_password" required>
+
+        <label for="job">SITUAÇÃO DE TRABALHO:</label>
+        <select name="job" id="i_job" required>
+            <option value="">Está buscando emprego?</option>
+            <option value="yes">SIM</option>
+            <option value="no">NÃO</option>
+        </select>
+
+        <label for="message">MENSAGEM:</label>
+        <textarea name="message" id="i_message" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
